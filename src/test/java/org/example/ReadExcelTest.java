@@ -1,29 +1,28 @@
 package org.example;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Iterator;
 
-public class ExcelTest {
+public class ReadExcelTest {
     String filePath="demo.xlsx";
     FileInputStream fis=new FileInputStream(filePath);
     XSSFWorkbook xssfWorkbook=new XSSFWorkbook(fis);
     XSSFSheet sheet=xssfWorkbook.getSheet("Sheet1");
 
-    public ExcelTest() throws IOException {
+    public ReadExcelTest() throws IOException {
+
     }
 
     @Test
-    public void readExcelUsigForLoop() throws IOException {
-        int noOfRows=sheet.getLastRowNum();
+    public void readExcelUsingForLoop() throws IOException {
+        int noOfRows=sheet.getPhysicalNumberOfRows();
         int noOfColumns=sheet.getRow(1).getLastCellNum();
         System.out.println("noOfColumns "+noOfColumns);
         for(int i=0;i<noOfRows;i++){
