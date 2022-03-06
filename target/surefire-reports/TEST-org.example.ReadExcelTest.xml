@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.ReadExcelTest" time="1.746" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.ReadExcelTest" time="0.525" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rahul.pandey/IdeaProjects/ExcelDemo/target/surefire/surefirebooter14960569398838765976.jar /Users/rahul.pandey/IdeaProjects/ExcelDemo/target/surefire 2022-03-02T21-37-45_838-jvmRun1 surefire15036695195588027179tmp surefire_012139636176995118445tmp"/>
+    <property name="sun.java.command" value="/Users/rahul.pandey/IdeaProjects/ExcelDemo/target/surefire/surefirebooter4582902214283728719.jar /Users/rahul.pandey/IdeaProjects/ExcelDemo/target/surefire 2022-03-06T18-53-40_806-jvmRun1 surefire15944999987615166803tmp surefire_02401677685480853538tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/rahul.pandey/IdeaProjects/ExcelDemo/target/test-classes:/Users/rahul.pandey/IdeaProjects/ExcelDemo/target/classes:/Users/rahul.pandey/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/rahul.pandey/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rahul.pandey/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/rahul.pandey/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/rahul.pandey/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/rahul.pandey/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/rahul.pandey/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/rahul.pandey/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/rahul.pandey/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/rahul.pandey/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/rahul.pandey/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/rahul.pandey/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/rahul.pandey/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/rahul.pandey/IdeaProjects/ExcelDemo/target/surefire/surefirebooter14960569398838765976.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rahul.pandey/IdeaProjects/ExcelDemo/target/surefire/surefirebooter4582902214283728719.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
     <property name="user.name" value="rahul.pandey"/>
@@ -51,6 +51,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="readExcelDataUsingIterator" classname="org.example.ReadExcelTest" time="0.007"/>
-  <testcase name="readExcelUsigForLoop" classname="org.example.ReadExcelTest" time="0"/>
+  <testcase name="readExcelDataUsingIterator" classname="org.example.ReadExcelTest" time="0.008"/>
+  <testcase name="readExcelUsingForLoop" classname="org.example.ReadExcelTest" time="0"/>
 </testsuite>

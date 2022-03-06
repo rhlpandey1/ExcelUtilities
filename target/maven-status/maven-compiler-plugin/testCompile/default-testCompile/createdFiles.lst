@@ -1,3 +1,8 @@
-org/example/WriteToExcelDemo.class
-org/example/ReadExcelTest$1.class
+org/example/WriteFormulaExcel.class
 org/example/ReadExcelTest.class
+org/example/ReadPasswordProtectedExcel.class
+org/example/ReadExcelTest$1.class
+org/example/ReadFormulaExcel$1.class
+org/example/ReadFormulaExcel.class
+org/example/ReadPasswordProtectedExcel$1.class
+org/example/WriteToExcelDemo.class

@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-02T16:07:46Z" name="Surefire suite" finished-at="2022-03-02T16:07:46Z" duration-ms="16">
+  <suite started-at="2022-03-06T13:23:41Z" name="Surefire suite" finished-at="2022-03-06T13:23:41Z" duration-ms="18">
     <groups>
     </groups>
-    <test started-at="2022-03-02T16:07:46Z" name="Surefire test" finished-at="2022-03-02T16:07:46Z" duration-ms="16">
+    <test started-at="2022-03-06T13:23:41Z" name="Surefire test" finished-at="2022-03-06T13:23:41Z" duration-ms="18">
       <class name="org.example.ReadExcelTest">
-        <test-method signature="readExcelDataUsingIterator()[pri:0, instance:org.example.ReadExcelTest@126253fd]" started-at="2022-03-02T16:07:46Z" name="readExcelDataUsingIterator" finished-at="2022-03-02T16:07:46Z" duration-ms="6" status="PASS">
+        <test-method signature="readExcelDataUsingIterator()[pri:0, instance:org.example.ReadExcelTest@126253fd]" started-at="2022-03-06T13:23:41Z" name="readExcelDataUsingIterator" finished-at="2022-03-06T13:23:41Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readExcelDataUsingIterator -->
-        <test-method signature="readExcelUsigForLoop()[pri:0, instance:org.example.ReadExcelTest@126253fd]" started-at="2022-03-02T16:07:46Z" name="readExcelUsigForLoop" finished-at="2022-03-02T16:07:46Z" duration-ms="1" status="PASS">
+        <test-method signature="readExcelUsingForLoop()[pri:0, instance:org.example.ReadExcelTest@126253fd]" started-at="2022-03-06T13:23:41Z" name="readExcelUsingForLoop" finished-at="2022-03-06T13:23:41Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readExcelUsigForLoop -->
+        </test-method> <!-- readExcelUsingForLoop -->
       </class> <!-- org.example.ReadExcelTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
