@@ -9,10 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class ExcelUtility {
     public FileInputStream fis;
@@ -65,9 +62,20 @@ public class ExcelUtility {
         return data;
     }
     public void setCellData(String sheetName,int rowNum,int column,String data) throws IOException {
+        File excelFile=new File(path);
+        if(!excelFile.exists()){ //if excel file doesn't exist create a new one
+            workbook=new XSSFWorkbook();
+            fos=new FileOutputStream(path);
+            workbook.write(fos);
+        }
         fis=new FileInputStream(path);
         workbook=new XSSFWorkbook(fis);
+
+        if(workbook.getSheetIndex(sheetName)==-1)
+            workbook.createSheet(sheetName); //if sheet doesn't exist create a new one
         sheet=workbook.getSheet(sheetName);
+        if(sheet.getRow(rowNum)==null)
+            sheet.createRow(rowNum);
         row=sheet.getRow(rowNum);
         cell=row.createCell(column);
         cell.setCellValue(data);
